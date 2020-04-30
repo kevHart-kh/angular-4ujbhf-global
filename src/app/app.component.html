@@ -1,4 +1,10 @@
 <hello name="{{ name }}"></hello>
 <p>
   Start editing to see some magic happen :)
+  <br>
+  {{data}}
+  
 </p>
+
+<input type="text" [(ngModel)]='dataskr'/>
+<button (click)="ubahData()">ubah data</button>
